@@ -1,0 +1,137 @@
+@media (min-width: 1400px) {}
+
+@media (min-width: 1200px) and (max-width: 1399px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (min-width: 576px) and (max-width: 767px) {}
+
+@media (max-width: 575.98px) {
+
+    /* Menu part start */
+    #menu {
+        top: 0;
+        background:#B57AD2;
+    }
+
+    #menu .navbar-brand {
+        width: 170px;
+        height: 70px;
+        padding: 0;
+    }
+
+    #menu .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    #menu ul {
+        background: #B57AD2;
+        text-align: center;
+        height: 60vh;
+    }
+
+    #menu ul li a::after {
+        display: none;
+    }
+
+    #menu ul li a {
+        line-height: 70px;
+    }
+    #menu nav .schedule a {
+    margin-left: 30%;
+    margin-top: 15%;
+    color: #000;
+    }
+
+    /* Menu part end */
+    
+    /* process part start */
+    #process .design .group_13 img{
+        padding: 20px 0;
+        height: 90vh;
+     }
+#process .design .text p{
+    bottom: 23px;
+    width: 27%;
+    padding: 0 ;
+    margin-left: 12px;
+    font-size: 14px;
+    line-height: 18px;
+    color:#333;
+}
+#process .design .text2{
+    position: absolute;
+    bottom: -50px;
+    line-height: 18px;
+    left: 33%;
+    width: 27%;
+    padding: 0 ;
+    margin-left: 12px;
+    font-size: 14px;
+    color: #333;
+}
+#process .design .text3{
+    bottom: 0px;
+    font-size: 14px;
+    color: #333;
+}
+#process .design .text h5{
+    position: absolute;
+    bottom: 260px;
+    padding: 0 2px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #333;
+}
+#process .design .text span{
+    display: block;
+    color: #333;
+}
+  
+    /* process part end */
+    /* secret part start */
+    #secret a{
+        margin-left: 32%;
+    }
+
+    /* Success part start */
+    #success .success_right .text_top{
+        right: 36px;
+        top: 30px;
+        width: 260px;
+    }
+    #success .success_right .text_top h2{
+        font-size: 24px;
+    }
+    #success .success_right .text_top p{
+        font-size: 14px;
+        margin-top: -3px;
+    }
+    #success .success_right .text_middle{
+        right: 135px;
+        top: 150px;
+        width: 250px;
+    }
+    #success .success_right .text_middel h2{
+        font-size: 24px;
+    }
+    #success .success_right .text_middle p{
+        font-size: 14px;
+        margin-top: -3px;
+    }
+    #success .success_right .text_bottom{
+        right: 250px;
+        top: 275px;
+        width: 260px;
+    }
+    #success .success_right .text_bottom h2{
+        font-size: 24px;
+    }
+    #success .success_right .text_bottom p{
+        font-size: 14px;
+        margin-top: -7px;
+    }
+    /* Success part end */
+}
